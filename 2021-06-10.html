@@ -20,6 +20,9 @@
         .pirmas, .antras{
             float:left;
             width: 50%;
+            
+            
+
         }
         .antras{
             font-family: 'Roboto Mono', monospace;
@@ -28,40 +31,72 @@
 
         .antras pre{
             font-family: 'Roboto Mono', monospace;
+            font-size: 10px;
+            line-height: 1.9;
+            color: black;
+            border: 1px solid blueviolet;
+            border-radius: 15px;
+            background-color: rgb(200, 223, 224);
+            padding: 2;
+        }
+
+        .antras h1, .antras h2, .antras h3, .antras h4, .antras h5, .antras h6{
+            margin:0;
+            font-weight: 700;
         }
 
     
         .antras h1{
             /*font-family: 'Roboto Mono', monospace;*/
             font-size:25px;
-            line-height: 0px;
+            line-height: 1;
 
         }
 
         .antras h2{
             font-size:30px;
-            line-height: 0px;
+            line-height: 1;
             
         }
         .antras h3{
             font-size:35px;
-            line-height: 0px;
+            line-height: 1;
             
         }
         .antras h4{
             font-size:40px;
-            line-height: 0px;
+            line-height: 1;
             
         }
         .antras h5{
             font-size:45px;
-            line-height: 0px;
+            line-height: 1;
             
         }
         .antras h6{
             font-size:50px;
-            line-height: 0px;
+            line-height: 1;
             
+        }
+
+        .antras p{
+            font-size:12px;
+            line-height: 1;
+            font-weight: 400;
+            
+        }
+
+        .antras blockquote{
+            font-size: 18px;
+            line-height: 1.7;
+            font-weight: 800;
+            border-left: 2px solid red;
+            
+            padding-left: 10px;
+        }
+
+        .antras-container{
+            padding-left: 30px;
         }
 
 
@@ -72,6 +107,7 @@
 <body>
     <div class="container">
         <div class="pirmas">
+        
             <h1>Teksto formatavimas</h1>
             <h2>Teksto formatavimas</h2>
             <h3>Teksto formatavimas</h3>
@@ -95,7 +131,7 @@
         
                 &lt;h1&gt;Teksto formatavimas&lt;h1&gt;
         
-                <h1>Teksto formatavimas</h1>
+
         .css{
             font-size: 18px;            Labas
         }
@@ -108,40 +144,43 @@
         </div>
 
         <div class="antras">
-            <h1>Teksto formatavimas</h1>
-            <h2>Teksto formatavimas</h2>
-            <h3>Teksto formatavimas</h3>
-            <h4>Teksto formatavimas</h4>
-            <h5>Teksto formatavimas</h5>
-            <h6>Teksto formatavimas</h6>
-            <!-- Teksto šrifto dydžiai -->
-        
-            <p>Teksto formatavimas Teksto formatavimas Teksto formatavimas Teksto formatavimas Teksto formatavimas Teksto formatavimas Teksto formatavimas Teksto formatavimas Teksto formatavimas Teksto formatavimas Teksto formatavimas Teksto formatavimas</p>
-        
-                <blockquote> Teksto formatavimas Teksto formatavimas Teksto formatavimas Teksto formatavimas Teksto formatavimas Teksto formatavimas</blockquote>
-                <!-- blockquote - citata -->
-        
-                <p> &lt;h1&gt;  </p>
-                <!-- Atvaizduoja tekstą su varnelėmis (<>) -->
-        
-                <p>&copy; Erikas Abukauskas</p>
-                <!-- visos teisės yra saugomos -->
-        
-            <pre>
-        
-                &lt;h1&gt;Teksto formatavimas&lt;h1&gt;
-        
+            <div class="antras-container">
                 <h1>Teksto formatavimas</h1>
-        .css{
-            font-size: 18px;            Labas
-        }
-        .css{
-            font-size: 18px;            Iki
-        }
+                <h2>Teksto formatavimas</h2>
+                <h3>Teksto formatavimas</h3>
+                <h4>Teksto formatavimas</h4>
+                <h5>Teksto formatavimas</h5>
+                <h6>Teksto formatavimas</h6>
+                <!-- Teksto šrifto dydžiai -->
+            
+                <p>Teksto formatavimas Teksto formatavimas Teksto formatavimas Teksto formatavimas Teksto formatavimas Teksto formatavimas Teksto formatavimas Teksto formatavimas Teksto formatavimas Teksto formatavimas Teksto formatavimas Teksto formatavimas</p>
+            
+                    <blockquote> Teksto formatavimas Teksto formatavimas Teksto formatavimas Teksto formatavimas Teksto formatavimas Teksto formatavimas</blockquote>
+                    <!-- blockquote - citata -->
+            
+                    <p> &lt;h1&gt;  </p>
+                    <!-- Atvaizduoja tekstą su varnelėmis (<>) -->
+            
+                    <p>&copy; Erikas Abukauskas</p>
+                    <!-- visos teisės yra saugomos -->
+            
+                <pre>
+                
+                    &lt;h1&gt;Teksto formatavimas&lt;h1&gt;
+                
+                    
+                .css    {
+                font-size: 18px;            Labas
+                }   
+                .css    {
+                font-size: 18px;            Iki
+                }   
                
-            </pre>   
-            <!-- Pre - Automatiškai suformatuoja tekstą, labiau skirta poeminiui tekstui -->
+                </pre>   
+                <!-- Pre - Automatiškai suformatuoja tekstą, labiau skirta poeminiui tekstui -->
+            </div>
         </div>
+
 
     </div>
 
